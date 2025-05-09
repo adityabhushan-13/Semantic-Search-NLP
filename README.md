@@ -1,15 +1,15 @@
-# Semantic Search Using Various Text Representation Techniques
+## Semantic Search Using Various Text Representation Techniques
 
-- Project Description
+- #Project Description
 
 This project focuses on implementing a Semantic Search Engine using multiple text representation techniques. Traditional search engines rely on keyword-based matching, which often fails to capture the true meaning of user queries. This project overcomes that limitation by exploring and comparing several modern text representation techniques to enhance the accuracy and relevance of search results.
 
 
-- Importance of This Project
+- #Importance of This Project
 
 In today's data-driven world, retrieving relevant information quickly and accurately is crucial in various domains such as customer support, e-commerce, academic research, and healthcare. Traditional search methods that rely on keyword matching often provide inaccurate results due to their inability to understand context, synonyms, and relationships between words. This project demonstrates the importance of semantic search by comparing different text representation techniques and analyzing their performance.
 
-- Techniques Used
+- #Techniques Used
 
 - Bag of Words (BoW)
 A simple technique that converts text into a vector of word counts.
@@ -32,6 +32,6 @@ Generates context-aware embeddings for each document.
 These embeddings are clustered using KMeans for efficient search.
 Advantages: Deep contextual understanding of text.
 Limitations: Computationally expensive.
-- Conclusion
+- #Conclusion
 
 This project successfully demonstrates the importance of choosing the right text representation technique for semantic search. From the comparative analysis, advanced techniques like BERT with KMeans significantly outperform simpler methods like Bag of Words and TF-IDF, providing more accurate and contextually relevant search results. This analysis highlights that while simpler methods are fast and easy to implement, context-aware methods are essential for achieving high search accuracy in real-world applications.
